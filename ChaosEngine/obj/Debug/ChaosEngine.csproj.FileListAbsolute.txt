@@ -1,0 +1,8 @@
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\ChaosEngine.exe.config
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\ChaosEngine.exe
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\ChaosEngine.pdb
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.csproj.AssemblyReference.cache
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.csproj.CoreCompileInputs.cache
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.exe
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.pdb
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\Assets\icon.ico
