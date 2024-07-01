@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|c:\\users\\carli\\desktop\\repositories\\chaosengine\\chaosengine\\chaosengine\\shape2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\shape2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|c:\\users\\carli\\desktop\\repositories\\chaosengine\\chaosengine\\chaosengine\\sprite2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\sprite2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|c:\\users\\carli\\desktop\\repositories\\chaosengine\\chaosengine\\chaosengine\\chaosengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\chaosengine\\chaosengine\\chaosengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\chaosengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\demogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|c:\\users\\carli\\desktop\\repositories\\chaosengine\\chaosengine\\chaosengine\\chaosengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\chaosengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\chaosengine\\chaosengine\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|c:\\users\\carli\\desktop\\repositories\\chaosengine\\chaosengine\\chaosengine\\shape2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|solutionrelative:chaosengine\\chaosengine\\shape2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}|ChaosEngine\\ChaosEngine.csproj|C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\chaosengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,28 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Shape2D.cs",
-              "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Shape2D.cs",
-              "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\Shape2D.cs",
-              "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Shape2D.cs",
-              "RelativeToolTip": "ChaosEngine\\ChaosEngine\\Shape2D.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T17:55:54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -61,7 +52,7 @@
               "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\ChaosEngine.cs",
               "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\ChaosEngine.cs",
               "RelativeToolTip": "ChaosEngine\\ChaosEngine\\ChaosEngine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA9AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwBgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T16:54:52.888Z",
               "EditorCaption": ""
@@ -74,26 +65,65 @@
               "RelativeDocumentMoniker": "ChaosEngine\\DemoGame.cs",
               "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\DemoGame.cs",
               "RelativeToolTip": "ChaosEngine\\DemoGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwDAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T17:12:53.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sprite2D.cs",
+              "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Sprite2D.cs",
+              "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\Sprite2D.cs",
+              "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Sprite2D.cs",
+              "RelativeToolTip": "ChaosEngine\\ChaosEngine\\Sprite2D.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T21:19:17.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ChaosEngine.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\ChaosEngine.cs",
+              "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\ChaosEngine.cs",
+              "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\ChaosEngine.cs [Progettazione]",
+              "RelativeToolTip": "ChaosEngine\\ChaosEngine\\ChaosEngine.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T21:57:04.05Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Vector2.cs",
               "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Vector2.cs",
               "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\Vector2.cs",
               "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Vector2.cs",
               "RelativeToolTip": "ChaosEngine\\ChaosEngine\\Vector2.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T16:55:07.298Z"
+              "WhenOpened": "2024-07-01T16:55:07.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Shape2D.cs",
+              "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Shape2D.cs",
+              "RelativeDocumentMoniker": "ChaosEngine\\ChaosEngine\\Shape2D.cs",
+              "ToolTip": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\ChaosEngine\\Shape2D.cs",
+              "RelativeToolTip": "ChaosEngine\\ChaosEngine\\Shape2D.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T17:55:54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Carli\\Desktop\\Repositories\\ChaosEngine\\ChaosEngine\\Program.cs",
               "RelativeDocumentMoniker": "ChaosEngine\\Program.cs",

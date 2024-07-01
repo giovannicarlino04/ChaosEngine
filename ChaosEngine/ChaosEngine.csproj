@@ -48,7 +48,9 @@
     <Compile Include="ChaosEngine\ChaosEngine.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ChaosEngine\Log.cs" />
     <Compile Include="ChaosEngine\Shape2D.cs" />
+    <Compile Include="ChaosEngine\Sprite2D.cs" />
     <Compile Include="ChaosEngine\Vector2.cs" />
     <Compile Include="DemoGame.cs" />
     <Compile Include="Program.cs" />
@@ -61,6 +63,13 @@
     <Content Include="Assets\icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Sprites\ground.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sprites\player_9mmhandgun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

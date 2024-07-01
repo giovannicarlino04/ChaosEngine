@@ -21,12 +21,17 @@ namespace ChaosEngine.ChaosEngine
         private Canvas window = null;
         private Thread GameLoopThread = null;
 
-        static List<Shape2D> allShapes = new List<Shape2D>();
+        public static List<Shape2D> allShapes = new List<Shape2D>();
+        public static List<Sprite2D> allSprites = new List<Sprite2D>();
 
         public Color backgroundColour = Color.Beige;
+        public Vector2 cameraPosition = Vector2.Zero();
+        public float cameraAngle = 0;
         public ChaosEngine(Vector2 screenSize, string windowTitle, Icon windowIcon = null)
         {
-            if(windowIcon == null)
+            Log.Info("Game is starting");
+
+            if (windowIcon == null)
                 windowIcon = new Icon("Assets/icon.ico");
             this.screenSize = screenSize;
             this.windowTitle = windowTitle;
@@ -36,14 +41,40 @@ namespace ChaosEngine.ChaosEngine
             window.Text = this.windowTitle;
             window.Icon = this.windowIcon;
             window.Paint += Renderer;
-
+            window.KeyDown += Window_KeyDown;
+            window.KeyUp += Window_KeyUp;
             GameLoopThread = new Thread(GameLoop);
             GameLoopThread.Start();
 
             Application.Run(window);
         }
 
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            GetKeyUp(e);
+        }
 
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            GetKeyDown(e);
+        }
+
+        public static void RegisterShape(Shape2D shape)
+        {
+            allShapes.Add(shape);
+        }
+        public static void UnregisterShape(Shape2D shape)
+        {
+            allShapes.Remove(shape);
+        }
+        public static void RegisterSprite(Sprite2D sprite)
+        {
+            allSprites.Add(sprite);
+        }
+        public static void UnregisterSprite(Sprite2D sprite)
+        {
+            allSprites.Remove(sprite);
+        }
         void GameLoop()
         {
             OnLoad();
@@ -58,15 +89,27 @@ namespace ChaosEngine.ChaosEngine
                 }
                 catch
                 {
-                    Console.WriteLine("Loading Game...");
+                    Log.Error("Window has not been found.");
                 }
-                
+
             }
         }
         private void Renderer(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
             g.Clear(backgroundColour);
+            g.TranslateTransform(cameraPosition.x, cameraPosition.y);
+            g.RotateTransform(cameraAngle);
+            foreach (Shape2D shape in allShapes)
+            {
+                g.FillRectangle(new SolidBrush(Color.Red), shape.position.x
+                    , shape.position.y, shape.scale.x, shape.scale.y);
+            }
+            foreach (Sprite2D sprite in allSprites)
+            {
+                g.DrawImage(sprite.sprite, sprite.position.x
+                    , sprite.position.y, sprite.scale.x, sprite.scale.y);
+            }
         }
         /// <summary>
         /// Called at the start of the game
@@ -80,6 +123,8 @@ namespace ChaosEngine.ChaosEngine
         /// Called before every frame, useful for drawing stuff
         /// </summary>
         public abstract void OnDraw();
+        public abstract void GetKeyDown(KeyEventArgs e);
+        public abstract void GetKeyUp(KeyEventArgs e);
 
     }
 }

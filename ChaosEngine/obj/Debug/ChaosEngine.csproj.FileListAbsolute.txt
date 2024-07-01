@@ -6,3 +6,5 @@ C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngin
 C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.exe
 C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\obj\Debug\ChaosEngine.pdb
 C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\Assets\icon.ico
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\Assets\Sprites\player_9mmhandgun.png
+C:\Users\Carli\Desktop\Repositories\ChaosEngine\ChaosEngine\bin\Debug\Assets\Sprites\ground.png

@@ -1,20 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChaosEngine.ChaosEngine
+﻿namespace ChaosEngine.ChaosEngine
 {
     public class Shape2D
     {
-        public Vector2 Position = null;
-        public Vector2 Scale = null;
-
-        public Shape2D(Vector2 position, Vector2 scale)
+        public Vector2 position = null;
+        public Vector2 scale = null;
+        public string tag = "";
+        public Shape2D(Vector2 position, Vector2 scale, string tag)
         {
-            Position = position;
-            Scale = scale;
+            this.position = position;
+            this.scale = scale;
+            this.tag = tag;
+
+            Log.Info($"[SHAPE2D]({tag}) - Has been registered");
+            ChaosEngine.RegisterShape(this);
+        }
+
+        public void DestroySelf()
+        {
+            Log.Info($"[SHAPE2D]({tag}) - Has been destroyed");
+            ChaosEngine.UnregisterShape(this);
         }
     }
 }
