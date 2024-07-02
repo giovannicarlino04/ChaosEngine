@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3CE66A58-F967-416A-A04B-A9BFDB3DBF69}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>ChaosEngine</RootNamespace>
     <AssemblyName>ChaosEngine</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -32,10 +32,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,12 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChaosEngine\Camera3D.cs" />
     <Compile Include="ChaosEngine\ChaosEngine.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChaosEngine\Log.cs" />
+    <Compile Include="ChaosEngine\Matrix4x4.cs" />
     <Compile Include="ChaosEngine\Shape2D.cs" />
+    <Compile Include="ChaosEngine\Shape3D.cs" />
     <Compile Include="ChaosEngine\Sprite2D.cs" />
+    <Compile Include="ChaosEngine\Vector3.cs" />
     <Compile Include="ChaosEngine\Vector2.cs" />
     <Compile Include="DemoGame.cs" />
     <Compile Include="Program.cs" />
@@ -58,17 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\icon.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Sprites\ground.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Sprites\player_9mmhandgun.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
