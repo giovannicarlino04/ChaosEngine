@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace ChaosEngine.ChaosEngine
 {
-    class Canvas : Form
+    public class Canvas : Form
     {
         public Canvas()
         {
