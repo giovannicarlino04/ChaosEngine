@@ -22,7 +22,6 @@ namespace ChaosEngine.ChaosEngine
         private Thread GameLoopThread = null;
 
         public static List<Shape2D> allShapes = new List<Shape2D>();
-        public static List<Shape3D> allShapes3D = new List<Shape3D>();
 
         public static List<Sprite2D> allSprites = new List<Sprite2D>();
 
@@ -30,7 +29,6 @@ namespace ChaosEngine.ChaosEngine
         public Vector2 cameraPosition = Vector2.Zero();
         public float cameraAngle = 0;
 
-        public Camera3D camera3D { get; private set; }
 
         public ChaosEngine(Vector2 screenSize, string windowTitle, Icon windowIcon = null)
         {
@@ -56,7 +54,6 @@ namespace ChaosEngine.ChaosEngine
 
             Application.Run(window);
 
-            camera3D = new Camera3D(new Vector3(0, 0, -5), Vector3.Zero(), (float)Math.PI / 4, 0.1f, 1000f);
         }
 
         private void Window_KeyUp(object sender, KeyEventArgs e)
@@ -76,15 +73,6 @@ namespace ChaosEngine.ChaosEngine
         public static void UnregisterShape(Shape2D shape)
         {
             allShapes.Remove(shape);
-        }
-        public static void RegisterShape(Shape3D shape)
-        {
-            allShapes3D.Add(shape);
-        }
-
-        public static void UnregisterShape(Shape3D shape)
-        {
-            allShapes3D.Remove(shape);
         }
 
         public static void RegisterSprite(Sprite2D sprite)
@@ -130,18 +118,6 @@ namespace ChaosEngine.ChaosEngine
             foreach (Sprite2D sprite in allSprites)
             {
                 g.DrawImage(sprite.sprite, sprite.position.x, sprite.position.y, sprite.scale.x, sprite.scale.y);
-            }
-
-            // 3D rendering logic (simple example, replace with actual 3D rendering logic)
-            foreach (Shape3D shape in allShapes3D)
-            {
-                // Simple projection of 3D to 2D (for demonstration purposes)
-                float projectedX = shape.position.x - shape.position.z / 2;
-                float projectedY = shape.position.y - shape.position.z / 2;
-                float projectedWidth = shape.scale.x - shape.scale.z / 2;
-                float projectedHeight = shape.scale.y - shape.scale.z / 2;
-
-                g.FillRectangle(new SolidBrush(Color.Blue), projectedX, projectedY, projectedWidth, projectedHeight);
             }
         }
 
