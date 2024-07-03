@@ -56,8 +56,6 @@
     <Compile Include="ChaosEngine\Shape2D.cs" />
     <Compile Include="ChaosEngine\Sprite2D.cs" />
     <Compile Include="ChaosEngine\Vector2.cs" />
-    <Compile Include="DemoGame.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
