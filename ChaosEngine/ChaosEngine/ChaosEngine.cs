@@ -32,7 +32,7 @@ namespace ChaosEngine.ChaosEngine
 
         public ChaosEngine(Vector2 screenSize, string windowTitle, Icon windowIcon = null)
         {
-            Log.Info("Game is starting");
+            Debug.Info("Game is starting");
 
             if (windowIcon == null)
                 windowIcon = new Icon("Assets/icon.ico");
@@ -98,7 +98,7 @@ namespace ChaosEngine.ChaosEngine
                 }
                 catch
                 {
-                    Log.Error("Window has not been found.");
+                    Debug.Error("Window has not been found.");
                 }
             }
         }
@@ -108,7 +108,7 @@ namespace ChaosEngine.ChaosEngine
             Graphics g = e.Graphics;
             g.Clear(backgroundColour);
 
-            // 2D rendering logic
+            // 2D rendering Debugic
             g.TranslateTransform(cameraPosition.x, cameraPosition.y);
             g.RotateTransform(cameraAngle);
             foreach (Shape2D shape in allShapes)

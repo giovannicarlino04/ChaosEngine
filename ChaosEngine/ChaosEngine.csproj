@@ -52,7 +52,7 @@
     <Compile Include="ChaosEngine\ChaosEngine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChaosEngine\Log.cs" />
+    <Compile Include="ChaosEngine\Debug.cs" />
     <Compile Include="ChaosEngine\Shape2D.cs" />
     <Compile Include="ChaosEngine\Sprite2D.cs" />
     <Compile Include="ChaosEngine\Vector2.cs" />

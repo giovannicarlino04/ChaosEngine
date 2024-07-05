@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChaosEngine.ChaosEngine
 {
-    public class Log
+    public class Debug
     {
         public static void Info(string msg)
         {

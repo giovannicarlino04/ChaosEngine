@@ -11,13 +11,13 @@
             this.scale = scale;
             this.tag = tag;
 
-            Log.Info($"[SHAPE2D]({tag}) - Has been registered");
+            Debug.Info($"[SHAPE2D]({tag}) - Has been registered");
             ChaosEngine.RegisterShape(this);
         }
 
         public void DestroySelf()
         {
-            Log.Info($"[SHAPE2D]({tag}) - Has been destroyed");
+            Debug.Info($"[SHAPE2D]({tag}) - Has been destroyed");
             ChaosEngine.UnregisterShape(this);
         }
     }

@@ -20,7 +20,7 @@ namespace ChaosEngine.ChaosEngine
             Image tmp = Image.FromFile($"Assets/Sprites/{directory}.png");
             Bitmap sprite = new Bitmap(tmp);
             this.sprite = sprite;
-            Log.Info($"[SPRITE2D]({tag}) - Has been registered");
+            Debug.Info($"[SPRITE2D]({tag}) - Has been registered");
             ChaosEngine.RegisterSprite(this);
         }
 
